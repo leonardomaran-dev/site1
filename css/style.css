@@ -1,0 +1,238 @@
+:root {
+    --cor-primaria: #003366;
+    --cor-secundaria: #72120B;
+    --light: #fff;
+    --dark: #333;
+}
+
+* {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav, .item, header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+nav {
+    width: 50%;
+    margin: 15px auto;
+}
+
+.atendimento {
+    display: flex;
+}
+
+.fa-solid, .fa-brands, .fas {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 5px;
+}
+
+.item {
+    color: white;
+}
+
+.btn {
+    height: 20px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+}
+
+.btn-info {
+    height: 20px;
+    padding: 10px;
+    background-color: var(--cor-secundaria);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.whats {
+    background-color: #2ba531;
+}
+
+.chat {
+    background-color: #00b29c;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.nav-item {
+    color: var(--dark);
+    font-weight: bold;
+
+}
+
+#slider img {
+    width: 100%;
+}
+
+h1 {
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.25;
+}
+
+span {
+    display: block;
+    color: var(--cor-secundaria);
+}
+
+#bem-vindo {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+.servicos {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.servico {
+    width: 300px;
+    border: 2px solid rgba(251, 251, 251, 0.13);
+    border-radius: 15px;
+    text-align: center;
+    color: var(--light);
+    padding: 15px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+.txt-servico {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.titulo2 {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 2.5rem;
+}
+
+.dados {
+    display: inline-block;
+    vertical-align: top;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 19px 20px;
+    display: grid;
+    border: none;
+    background-color: #EEEEEE;
+    width: 400px;
+    border-radius: 7px;
+}
+
+.txt-area {
+    vertical-align: top;
+    display: inline-block;
+}
+
+textarea {
+    background-color: #EEEEEE;
+    border: none;
+    padding: 19px 20px;
+    height: 173px;
+    resize: none;
+}
+
+.submit {
+    width: 870px;
+    margin: 0 auto;
+    padding: 20px 70px;
+    color: var(--light);
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+}
+
+.rodape1 {
+    background-color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.txt-contato {
+    color: var(--light);
+    border-right: 2px solid var(--light);
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.phone {
+    margin-left: -100px;
+    color: var(--light);
+}
+
+.rodape2{
+    border-top: 1px solid var(--light);
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+
+.itens-rodape2{
+    margin: 20px auto;
+}
+
+.logo-rodape {
+    width: 146px;
+    height: 23px;
+}
+
+.txt-rodape {
+    color: var(--light);
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    margin: -10px auto;
+}
